@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5C987E8168408EF008C88AE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C987E7168408EF008C88AE /* Cocoa.framework */; };
+		F5C987F2168408EF008C88AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5C987F0168408EF008C88AE /* InfoPlist.strings */; };
+		F5C987F4168408EF008C88AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C987F3168408EF008C88AE /* main.m */; };
+		F5C987F8168408EF008C88AE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F5C987F6168408EF008C88AE /* Credits.rtf */; };
+		F5C987FB168408EF008C88AE /* RJFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C987FA168408EF008C88AE /* RJFAppDelegate.m */; };
+		F5C987FE168408F0008C88AE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5C987FC168408F0008C88AE /* MainMenu.xib */; };
+		F5C98806168408F0008C88AE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C98805168408F0008C88AE /* SenTestingKit.framework */; };
+		F5C98807168408F0008C88AE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C987E7168408EF008C88AE /* Cocoa.framework */; };
+		F5C9880F168408F0008C88AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5C9880D168408F0008C88AE /* InfoPlist.strings */; };
+		F5C98812168408F0008C88AE /* CopyFileAndEjectNofileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C98811168408F0008C88AE /* CopyFileAndEjectNofileTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5C98808168408F0008C88AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5C987DA168408EF008C88AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5C987E2168408EF008C88AE;
+			remoteInfo = CopyFileAndEjectNofile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5C987E3168408EF008C88AE /* CopyFileAndEjectNofile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CopyFileAndEjectNofile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C987E7168408EF008C88AE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F5C987EA168408EF008C88AE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F5C987EB168408EF008C88AE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F5C987EC168408EF008C88AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F5C987EF168408EF008C88AE /* CopyFileAndEjectNofile-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CopyFileAndEjectNofile-Info.plist"; sourceTree = "<group>"; };
+		F5C987F1168408EF008C88AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F5C987F3168408EF008C88AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5C987F5168408EF008C88AE /* CopyFileAndEjectNofile-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CopyFileAndEjectNofile-Prefix.pch"; sourceTree = "<group>"; };
+		F5C987F7168408EF008C88AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F5C987F9168408EF008C88AE /* RJFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RJFAppDelegate.h; sourceTree = "<group>"; };
+		F5C987FA168408EF008C88AE /* RJFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RJFAppDelegate.m; sourceTree = "<group>"; };
+		F5C987FD168408F0008C88AE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F5C98804168408F0008C88AE /* CopyFileAndEjectNofileTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CopyFileAndEjectNofileTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C98805168408F0008C88AE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F5C9880C168408F0008C88AE /* CopyFileAndEjectNofileTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CopyFileAndEjectNofileTests-Info.plist"; sourceTree = "<group>"; };
+		F5C9880E168408F0008C88AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F5C98810168408F0008C88AE /* CopyFileAndEjectNofileTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CopyFileAndEjectNofileTests.h; sourceTree = "<group>"; };
+		F5C98811168408F0008C88AE /* CopyFileAndEjectNofileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CopyFileAndEjectNofileTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5C987E0168408EF008C88AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C987E8168408EF008C88AE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C98800168408F0008C88AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C98806168408F0008C88AE /* SenTestingKit.framework in Frameworks */,
+				F5C98807168408F0008C88AE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5C987D8168408EF008C88AE = {
+			isa = PBXGroup;
+			children = (
+				F5C987ED168408EF008C88AE /* CopyFileAndEjectNofile */,
+				F5C9880A168408F0008C88AE /* CopyFileAndEjectNofileTests */,
+				F5C987E6168408EF008C88AE /* Frameworks */,
+				F5C987E4168408EF008C88AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5C987E4168408EF008C88AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5C987E3168408EF008C88AE /* CopyFileAndEjectNofile.app */,
+				F5C98804168408F0008C88AE /* CopyFileAndEjectNofileTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5C987E6168408EF008C88AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5C987E7168408EF008C88AE /* Cocoa.framework */,
+				F5C98805168408F0008C88AE /* SenTestingKit.framework */,
+				F5C987E9168408EF008C88AE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5C987E9168408EF008C88AE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5C987EA168408EF008C88AE /* AppKit.framework */,
+				F5C987EB168408EF008C88AE /* CoreData.framework */,
+				F5C987EC168408EF008C88AE /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F5C987ED168408EF008C88AE /* CopyFileAndEjectNofile */ = {
+			isa = PBXGroup;
+			children = (
+				F5C987F9168408EF008C88AE /* RJFAppDelegate.h */,
+				F5C987FA168408EF008C88AE /* RJFAppDelegate.m */,
+				F5C987FC168408F0008C88AE /* MainMenu.xib */,
+				F5C987EE168408EF008C88AE /* Supporting Files */,
+			);
+			path = CopyFileAndEjectNofile;
+			sourceTree = "<group>";
+		};
+		F5C987EE168408EF008C88AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5C987EF168408EF008C88AE /* CopyFileAndEjectNofile-Info.plist */,
+				F5C987F0168408EF008C88AE /* InfoPlist.strings */,
+				F5C987F3168408EF008C88AE /* main.m */,
+				F5C987F5168408EF008C88AE /* CopyFileAndEjectNofile-Prefix.pch */,
+				F5C987F6168408EF008C88AE /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5C9880A168408F0008C88AE /* CopyFileAndEjectNofileTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5C98810168408F0008C88AE /* CopyFileAndEjectNofileTests.h */,
+				F5C98811168408F0008C88AE /* CopyFileAndEjectNofileTests.m */,
+				F5C9880B168408F0008C88AE /* Supporting Files */,
+			);
+			path = CopyFileAndEjectNofileTests;
+			sourceTree = "<group>";
+		};
+		F5C9880B168408F0008C88AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5C9880C168408F0008C88AE /* CopyFileAndEjectNofileTests-Info.plist */,
+				F5C9880D168408F0008C88AE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5C987E2168408EF008C88AE /* CopyFileAndEjectNofile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5C98815168408F0008C88AE /* Build configuration list for PBXNativeTarget "CopyFileAndEjectNofile" */;
+			buildPhases = (
+				F5C987DF168408EF008C88AE /* Sources */,
+				F5C987E0168408EF008C88AE /* Frameworks */,
+				F5C987E1168408EF008C88AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CopyFileAndEjectNofile;
+			productName = CopyFileAndEjectNofile;
+			productReference = F5C987E3168408EF008C88AE /* CopyFileAndEjectNofile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5C98803168408F0008C88AE /* CopyFileAndEjectNofileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5C98818168408F0008C88AE /* Build configuration list for PBXNativeTarget "CopyFileAndEjectNofileTests" */;
+			buildPhases = (
+				F5C987FF168408F0008C88AE /* Sources */,
+				F5C98800168408F0008C88AE /* Frameworks */,
+				F5C98801168408F0008C88AE /* Resources */,
+				F5C98802168408F0008C88AE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5C98809168408F0008C88AE /* PBXTargetDependency */,
+			);
+			name = CopyFileAndEjectNofileTests;
+			productName = CopyFileAndEjectNofileTests;
+			productReference = F5C98804168408F0008C88AE /* CopyFileAndEjectNofileTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5C987DA168408EF008C88AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RJF;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "com.o-popo";
+			};
+			buildConfigurationList = F5C987DD168408EF008C88AE /* Build configuration list for PBXProject "CopyFileAndEjectNofile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F5C987D8168408EF008C88AE;
+			productRefGroup = F5C987E4168408EF008C88AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5C987E2168408EF008C88AE /* CopyFileAndEjectNofile */,
+				F5C98803168408F0008C88AE /* CopyFileAndEjectNofileTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5C987E1168408EF008C88AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C987F2168408EF008C88AE /* InfoPlist.strings in Resources */,
+				F5C987F8168408EF008C88AE /* Credits.rtf in Resources */,
+				F5C987FE168408F0008C88AE /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C98801168408F0008C88AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C9880F168408F0008C88AE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F5C98802168408F0008C88AE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5C987DF168408EF008C88AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C987F4168408EF008C88AE /* main.m in Sources */,
+				F5C987FB168408EF008C88AE /* RJFAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C987FF168408F0008C88AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C98812168408F0008C88AE /* CopyFileAndEjectNofileTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5C98809168408F0008C88AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5C987E2168408EF008C88AE /* CopyFileAndEjectNofile */;
+			targetProxy = F5C98808168408F0008C88AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5C987F0168408EF008C88AE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5C987F1168408EF008C88AE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F5C987F6168408EF008C88AE /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5C987F7168408EF008C88AE /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F5C987FC168408F0008C88AE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5C987FD168408F0008C88AE /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		F5C9880D168408F0008C88AE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5C9880E168408F0008C88AE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5C98813168408F0008C88AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F5C98814168408F0008C88AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F5C98816168408F0008C88AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CopyFileAndEjectNofile/CopyFileAndEjectNofile-Prefix.pch";
+				INFOPLIST_FILE = "CopyFileAndEjectNofile/CopyFileAndEjectNofile-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F5C98817168408F0008C88AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CopyFileAndEjectNofile/CopyFileAndEjectNofile-Prefix.pch";
+				INFOPLIST_FILE = "CopyFileAndEjectNofile/CopyFileAndEjectNofile-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F5C98819168408F0008C88AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CopyFileAndEjectNofile.app/Contents/MacOS/CopyFileAndEjectNofile";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CopyFileAndEjectNofile/CopyFileAndEjectNofile-Prefix.pch";
+				INFOPLIST_FILE = "CopyFileAndEjectNofileTests/CopyFileAndEjectNofileTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F5C9881A168408F0008C88AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CopyFileAndEjectNofile.app/Contents/MacOS/CopyFileAndEjectNofile";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CopyFileAndEjectNofile/CopyFileAndEjectNofile-Prefix.pch";
+				INFOPLIST_FILE = "CopyFileAndEjectNofileTests/CopyFileAndEjectNofileTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5C987DD168408EF008C88AE /* Build configuration list for PBXProject "CopyFileAndEjectNofile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C98813168408F0008C88AE /* Debug */,
+				F5C98814168408F0008C88AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5C98815168408F0008C88AE /* Build configuration list for PBXNativeTarget "CopyFileAndEjectNofile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C98816168408F0008C88AE /* Debug */,
+				F5C98817168408F0008C88AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5C98818168408F0008C88AE /* Build configuration list for PBXNativeTarget "CopyFileAndEjectNofileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C98819168408F0008C88AE /* Debug */,
+				F5C9881A168408F0008C88AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5C987DA168408EF008C88AE /* Project object */;
+}
