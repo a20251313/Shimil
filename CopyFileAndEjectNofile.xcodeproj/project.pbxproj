@@ -17,6 +17,7 @@
 		F5C98807168408F0008C88AE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C987E7168408EF008C88AE /* Cocoa.framework */; };
 		F5C9880F168408F0008C88AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5C9880D168408F0008C88AE /* InfoPlist.strings */; };
 		F5C98812168408F0008C88AE /* CopyFileAndEjectNofileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C98811168408F0008C88AE /* CopyFileAndEjectNofileTests.m */; };
+		F5C9882516840C19008C88AE /* RJFCopyproject.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C9882416840C19008C88AE /* RJFCopyproject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		F5C9880E168408F0008C88AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F5C98810168408F0008C88AE /* CopyFileAndEjectNofileTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CopyFileAndEjectNofileTests.h; sourceTree = "<group>"; };
 		F5C98811168408F0008C88AE /* CopyFileAndEjectNofileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CopyFileAndEjectNofileTests.m; sourceTree = "<group>"; };
+		F5C9882316840C19008C88AE /* RJFCopyproject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJFCopyproject.h; sourceTree = "<group>"; };
+		F5C9882416840C19008C88AE /* RJFCopyproject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJFCopyproject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				F5C987F9168408EF008C88AE /* RJFAppDelegate.h */,
 				F5C987FA168408EF008C88AE /* RJFAppDelegate.m */,
 				F5C987FC168408F0008C88AE /* MainMenu.xib */,
+				F5C9882316840C19008C88AE /* RJFCopyproject.h */,
+				F5C9882416840C19008C88AE /* RJFCopyproject.m */,
 				F5C987EE168408EF008C88AE /* Supporting Files */,
 			);
 			path = CopyFileAndEjectNofile;
@@ -264,6 +269,7 @@
 			files = (
 				F5C987F4168408EF008C88AE /* main.m in Sources */,
 				F5C987FB168408EF008C88AE /* RJFAppDelegate.m in Sources */,
+				F5C9882516840C19008C88AE /* RJFCopyproject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,7 +385,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CopyFileAndEjectNofile/CopyFileAndEjectNofile-Prefix.pch";
 				INFOPLIST_FILE = "CopyFileAndEjectNofile/CopyFileAndEjectNofile-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -391,7 +399,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CopyFileAndEjectNofile/CopyFileAndEjectNofile-Prefix.pch";
 				INFOPLIST_FILE = "CopyFileAndEjectNofile/CopyFileAndEjectNofile-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -445,6 +455,7 @@
 				F5C98817168408F0008C88AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5C98818168408F0008C88AE /* Build configuration list for PBXNativeTarget "CopyFileAndEjectNofileTests" */ = {
 			isa = XCConfigurationList;
@@ -453,6 +464,7 @@
 				F5C9881A168408F0008C88AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
